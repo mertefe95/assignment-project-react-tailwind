@@ -18800,6 +18800,34 @@ video {
   animation: bounce 1s infinite;
 }
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans';
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@font-face{
+  font-family: "AzoSans-Regular";
+
+  src: url("../assets/fonts/AzoSans-Regular.ttf") format("truetype");
+}
+
+.upper-main-content p:first-child {
+  font-family: "AzoSans-Regular";
+}
+
+.second-p {
+  color: #18052f;
+}
+
+.btn {
+  background: #684ed5;
+  color: #ffffff;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

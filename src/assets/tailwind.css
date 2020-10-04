@@ -22,11 +22,29 @@
     font-family: "AzoSans-Regular";
 }
 
-.second-p {
+.upper-second-p {
     color: #18052f;
 }
 
 .btn {
     background: #684ed5;
     color: #ffffff;
+    transition: all 0.08s ease-in-out !important;
+    line-height: 1.6;
+
+}
+
+.foot-second-p {
+    color: #4c1eb8;
+}
+
+.input {
+    border-color: #e4e5e6;
+    transition: padding 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    color: #240d40;
+}
+
+
+.upper-main-content {
+    color: #18052f;
 }

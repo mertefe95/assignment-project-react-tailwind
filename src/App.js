@@ -7,26 +7,27 @@ function App() {
     <div className="body h-screen">
       
       <div className="header p-13">
-        <img className="p-14"  src={SwellLogo}/>
+        <img className="pt-8 pl-8"  src={SwellLogo}/>
       </div>
 
-      <div className="main flex justify-center items-center">
+      <div className="main flex flex-col justify-center items-center pt-48 text-center">
         <div className="upper-main-content">
-          <p className="text-4xl font-medium">Verify your email address</p>
-          <p className="upper-second-p text-base">Please check your inbox for jaequery@gmail.com and enter the code below</p>
+          <p className="upper-p text-4xl font-medium">Verify your email address</p>
+          <p className="upper-second-p text-base pb-10">Please check your inbox for jaequery@gmail.com and <br/> enter the code below</p>
         </div>
         <div className="form-container">
           <form className="form">
-            <input type="text"></input>
-            <button className="btn py-4 px-4 text-base border-solid border border-transparent cursor-pointer shadow-none rounded">Continue</button>
+            <input className="input h-16 border rounded-sm py-3 px-10 border-solid" type="text"></input>
+            <button className="btn ml-6 py-3 px-8 text-base border-solid border border-transparent cursor-pointer shadow-none rounded">Continue</button>
           </form>
         </div>
-
-        <div className="footnotes text-sm">
+        
+        <div className="footnotes text-sm flex pt-8">
           <p>Didn't receive it?</p>
-          <p className="foot-second-p">Send again</p>
+          <p className="foot-second-p pl-2">Send again</p>
         </div>
-      </div>
+        </div>
+      
     </div>
   );
 }
